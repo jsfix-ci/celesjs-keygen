@@ -1,8 +1,8 @@
 /* eslint-env mocha */
 const assert = require('assert')
 const {accountPermissions, checkKeySet} = require('./test-utils.js')
-const {PrivateKey, Signature} = require('eosjs-ecc')
-const ecc = require('eosjs-ecc')
+const {PrivateKey, Signature} = require('celesjs-ecc')
+const ecc = require('celesjs-ecc')
 const config = require('./config')
 
 const Keystore = require('./keystore.js')
@@ -177,8 +177,8 @@ describe('Keystore', () => {
     keystore.deriveKeys({parent: master, accountPermissions})
 
     assert.deepEqual(keystore.getPublicKeys(), [
-      'EOS7vgT3ZsuUxWH1tWyqw6cyKqKhPjUFbonZjyrrXqDauty61SrYe',
-      'EOS5MiUJEXxjJw6wUcE6yUjxpATaWetubAGUJ1nYLRSHYPpGCJ8ZU'
+      'CELES7vgT3ZsuUxWH1tWyqw6cyKqKhPjUFbonZjyrrXqDauty61SrYe',
+      'CELES5MiUJEXxjJw6wUcE6yUjxpATaWetubAGUJ1nYLRSHYPpGCJ8ZU'
     ])
   })
 
@@ -439,7 +439,7 @@ describe('Keystore', () => {
 
     keystore.removeKeys('active', false /* keepPublicKeys */)
     assert.throws(() => {keystore.keyProvider({pubkeys})},
-      /missing public key EOS.*/)
+      /missing public key CELES.*/)
   })
 
   it('wipe all', async function() {

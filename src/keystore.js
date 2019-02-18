@@ -1,8 +1,8 @@
 /** @module Keystore */
 
 const assert = require('assert')
-const {PrivateKey, Signature} = require('eosjs-ecc')
-const ecc = require('eosjs-ecc')
+const {PrivateKey, Signature} = require('celesjs-ecc')
+const ecc = require('celesjs-ecc')
 const minimatch = require('minimatch')
 
 const Keygen = require('./keygen')
@@ -109,7 +109,7 @@ function Keystore(accountName, config = {}) {
     keys will be saved to disk. (example: `active`).
 
     @arg {accountPermissions} [params.accountPermissions] - Permissions object
-    from Eos blockchain via get_account.  This is used to validate the parent
+    from Celes blockchain via get_account.  This is used to validate the parent
     and derive additional permission keys.  This allows this keystore to detect
     incorrect passwords early before trying to sign a transaction.
 
@@ -694,11 +694,11 @@ function Keystore(accountName, config = {}) {
   }
 
   /**
-    Integration for 'eosjs' ..
+    Integration for 'celesjs' ..
 
     Call keyProvider with no parameters or with a specific keyPathMatcher
     pattern to get an array of public keys in this key store.  A library
-    like eosjs may be provided these available public keys to eosd
+    like celesjs may be provided these available public keys to celesd
     get_required_keys for filtering and to determine which private keys are
     needed to sign a given transaction.
 
@@ -716,7 +716,7 @@ function Keystore(accountName, config = {}) {
     wif private keys for the provided pubkeys argument (also filtered using
     keyPathMatcher).
 
-    @see https://github.com/eosio/eosjs
+    @see https://github.com/celes-dev/celesjs
   */
   function keyProvider({keyPathMatcher = '**', pubkeys} = {}) {
     keepAlive()

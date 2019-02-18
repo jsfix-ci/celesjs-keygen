@@ -2,7 +2,7 @@
 
 const assert = require('assert')
 
-const {PrivateKey} = require('eosjs-ecc')
+const {PrivateKey} = require('celesjs-ecc')
 const validate = require('./validate')
 
 module.exports = {

@@ -1,6 +1,6 @@
 
 /**
-  Public Key (EOS6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV)
+  Public Key (CELES6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV)
 
   @typedef {string} pubkey
 */
@@ -13,7 +13,7 @@
 */
 
 /**
-  Private key object from eosjs-ecc.
+  Private key object from celesjs-ecc.
 
   @typedef {object} privateKey
 */
@@ -54,7 +54,7 @@
   @example required_auth: {
   threshold: 1,
   keys: [{
-      key: 'EOS78Cs5HPKY7HKHrSMnR76uj7yeajPuNwSH1Fsria3sJuufwE3Zd',
+      key: 'CELES78Cs5HPKY7HKHrSMnR76uj7yeajPuNwSH1Fsria3sJuufwE3Zd',
       weight: 1
     }
   ],
@@ -63,7 +63,7 @@
 */
 
 /**
-  Permissions object from Eos blockchain obtained via get_account.
+  Permissions object from Celes blockchain obtained via get_account.
 
   See chain API get_account => account.permissions.
 
@@ -75,7 +75,7 @@
   required_auth: {
     threshold: 1,
     keys: [{
-        key: 'EOS78Cs5HPKY7HKHrSMnR76uj7yeajPuNwSH1Fsria3sJuufwE3Zd',
+        key: 'CELES78Cs5HPKY7HKHrSMnR76uj7yeajPuNwSH1Fsria3sJuufwE3Zd',
         weight: 1
       }
     ],
@@ -87,7 +87,7 @@
   required_auth: {
     threshold: 1,
     keys: [{
-        key: 'EOS78Cs5HPKY7HKHrSMnR76uj7yeajPuNwSH1Fsria3sJuufwE3Zd',
+        key: 'CELES78Cs5HPKY7HKHrSMnR76uj7yeajPuNwSH1Fsria3sJuufwE3Zd',
         weight: 1
       }
     ],
@@ -99,7 +99,7 @@
   required_auth: {
     threshold: 1,
     keys: [{
-        key: 'EOS78Cs5HPKY7HKHrSMnR76uj7yeajPuNwSH1Fsria3sJuufwE3Zd',
+        key: 'CELES78Cs5HPKY7HKHrSMnR76uj7yeajPuNwSH1Fsria3sJuufwE3Zd',
         weight: 1
       }
     ],

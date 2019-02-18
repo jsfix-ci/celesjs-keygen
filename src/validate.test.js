@@ -22,7 +22,7 @@ describe('Validate', () => {
   })
 
   it('keyType', () => {
-    const testPubkey = 'EOS6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV'
+    const testPubkey = 'CELES6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV'
     const testMasterPass = 'PW5JMx76CTUTXxpAbwAqGMMVzSeJaP5UVTT5c2uobcpaMUdLAphSp'
     const testPrivate = testMasterPass.substring(2)
 

@@ -1,5 +1,5 @@
 {
-  "name": "eosjs-keygen",
+  "name": "celesjs-keygen",
   "version": "1.3.2",
   "description": "General purpose library for private key storage and key management.",
   "main": "lib/index.js",
@@ -14,36 +14,36 @@
     "build": "npm run docs && npm run build_browser",
     "docs": "jsdoc2md src/keystore.js src/keygen.js src/jsdoc-types.js > API.md",
     "build_lib": "babel src --out-dir lib",
-    "build_browser": "npm run build_lib && mkdir -p dist && browserify -o dist/eosjs-keygen.js -s kos lib/index.js",
+    "build_browser": "npm run build_lib && mkdir -p dist && browserify -o dist/celesjs-keygen.js -s kos lib/index.js",
     "build_browser_test": "npm run build_lib && mkdir -p dist && browserify -o dist/mocha-test.js lib/*.test.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/EOSIO/eosjs-keygen.git"
+    "url": "git+https://github.com/celes-dev/celesjs-keygen.git"
   },
   "keywords": [
-    "EOS",
+    "CELES",
     "Blockchain"
   ],
   "author": "jamesc",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/EOSIO/eosjs-keygen/issues"
+    "url": "https://github.com/celes-dev/celesjs-keygen/issues"
   },
-  "homepage": "https://github.com/EOSIO/eosjs-keygen#readme",
+  "homepage": "https://github.com/celes-dev/celesjs-keygen#readme",
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-core": "^6.26.0",
     "babel-preset-es2015": "^6.24.1",
     "browserify": "^14.4.0",
     "coveralls": "^3.0.0",
-    "eosjs": "^4.0.2",
+    "celesjs": "^4.0.2",
     "istanbul": "^1.1.0-alpha.1",
     "jsdoc-to-markdown": "^3.0.4",
     "mocha": "^5.2.0"
   },
   "dependencies": {
-    "eosjs-ecc": "^4.0.1",
+    "celesjs-ecc": "^4.0.1",
     "history": "^4.7.2",
     "localStorage": "^1.0.3",
     "minimatch": "^3.0.4"

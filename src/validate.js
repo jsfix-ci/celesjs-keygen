@@ -1,6 +1,6 @@
 const assert = require('assert')
 
-const {PrivateKey, PublicKey} = require('eosjs-ecc')
+const {PrivateKey, PublicKey} = require('celesjs-ecc')
 
 module.exports = {
   keyType,
