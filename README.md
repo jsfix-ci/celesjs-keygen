@@ -1,4 +1,4 @@
-<!--[![Build Status](https://travis-ci.org/celes-dev/celesjs-keygen.svg?branch=master)](https://travis-ci.org/celes-dev/celesjs-keygen)-->
+[![Build Status](https://travis-ci.org/celes-dev/celesjs-keygen.svg?branch=master)](https://travis-ci.org/celes-dev/celesjs-keygen)
 [![NPM](https://img.shields.io/npm/v/celesjs-keygen.svg)](https://www.npmjs.org/package/celesjs-keygen)
 
 # Repository
