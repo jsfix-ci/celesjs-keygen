@@ -13,7 +13,7 @@
 */
 
 /**
-  Private key object from celesjs-ecc.
+  Private key object from celesosjs-ecc.
 
   @typedef {object} privateKey
 */

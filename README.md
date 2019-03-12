@@ -5,14 +5,14 @@
 
 The purpose of this library is for managing keys in local storage.  This is designed to derive and cache keys but also needs a password manager to store a "root" key. This library does not have secure or password protected storage. It does however figure out permission hierarchies and is configurable enough to only store keys you feel are safe to store.
 
-General purpose cryptography is found in [celesjs-ecc](http://github.com/celes-dev/celesjs-ecc) library.  Hierarchical
-deterministic key generation uses PrivateKey.getChildKey in celesjs-ecc.
+General purpose cryptography is found in [celesosjs-ecc](http://github.com/celes-dev/celesjs-ecc) library.  Hierarchical
+deterministic key generation uses PrivateKey.getChildKey in celesosjs-ecc.
 
 ### Usage
 
 ```javascript
 let {Keystore, Keygen} = require('celesjs-keygen')
-Celes = require('celesjs')
+Celes = require('celesosjs')
 
 sessionConfig = {
   timeoutInMin: 30,

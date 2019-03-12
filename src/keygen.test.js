@@ -2,7 +2,7 @@
 const assert = require('assert')
 const { accountPermissions, checkKeySet } = require('./test-utils.js')
 
-const { PrivateKey } = require('celesjs-ecc')
+const { PrivateKey } = require('celesosjs-ecc')
 const Keygen = require('./keygen')
 
 describe('Keygen', () => {

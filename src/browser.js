@@ -1,6 +1,6 @@
 const Keystore = require('./keystore')
 const Keygen = require('./keygen')
-const ecc = require('celesjs-ecc')
+const ecc = require('celesosjs-ecc')
 
 const createHistory = require('history').createBrowserHistory
 const config = require('./config')

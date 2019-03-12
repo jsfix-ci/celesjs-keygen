@@ -18,7 +18,7 @@
   (5JMx76CTUTXxpAbwAqGMMVzSeJaP5UVTT5c2uobcpaMUdLAphSp)</p>
 </dd>
 <dt><a href="#privateKey">privateKey</a> : <code>object</code></dt>
-<dd><p>Private key object from celesjs-ecc.</p>
+<dd><p>Private key object from celesosjs-ecc.</p>
 </dd>
 <dt><a href="#masterPrivateKey">masterPrivateKey</a> : <code>string</code></dt>
 <dd><p>Master Private Key.  Strong random key used to derive all other key types.
@@ -304,11 +304,11 @@ Keep alive (prevent expiration).  Called automatically if Uri navigation
 <a name="module_Keystore..Keystore..keyProvider"></a>
 
 #### Keystore~keyProvider(param) ⇒ <code>Array.&lt;(pubkey\|wif)&gt;</code>
-Integration for 'celesjs' ..
+Integration for 'celesosjs' ..
 
     Call keyProvider with no parameters or with a specific keyPathMatcher
     pattern to get an array of public keys in this key store.  A library
-    like celesjs may be provided these available public keys to celesd
+    like celesosjs may be provided these available public keys to celesd
     get_required_keys for filtering and to determine which private keys are
     needed to sign a given transaction.
 
@@ -396,7 +396,7 @@ Public Key (CELES6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV)
 <a name="privateKey"></a>
 
 ## privateKey : <code>object</code>
-Private key object from celesjs-ecc.
+Private key object from celesosjs-ecc.
 
 **Kind**: global typedef  
 <a name="masterPrivateKey"></a>

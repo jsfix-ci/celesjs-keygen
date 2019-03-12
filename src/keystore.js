@@ -1,8 +1,8 @@
 /** @module Keystore */
 
 const assert = require('assert')
-const {PrivateKey, Signature} = require('celesjs-ecc')
-const ecc = require('celesjs-ecc')
+const {PrivateKey, Signature} = require('celesosjs-ecc')
+const ecc = require('celesosjs-ecc')
 const minimatch = require('minimatch')
 
 const Keygen = require('./keygen')
@@ -694,11 +694,11 @@ function Keystore(accountName, config = {}) {
   }
 
   /**
-    Integration for 'celesjs' ..
+    Integration for 'celesosjs' ..
 
     Call keyProvider with no parameters or with a specific keyPathMatcher
     pattern to get an array of public keys in this key store.  A library
-    like celesjs may be provided these available public keys to celesd
+    like celesosjs may be provided these available public keys to celesd
     get_required_keys for filtering and to determine which private keys are
     needed to sign a given transaction.
 

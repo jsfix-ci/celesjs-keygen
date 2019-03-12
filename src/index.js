@@ -1,7 +1,7 @@
 const Keystore = require('./keystore')
 const Keygen = require('./keygen')
 
-const ecc = require('celesjs-ecc')
+const ecc = require('celesosjs-ecc')
 
 module.exports = {
   Keystore,
